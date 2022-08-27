@@ -34,3 +34,7 @@ QtProject.conf
 systemd/user/default.target.wants/
 
 systemd/user/sockets.target.wants/
+
+balena-etcher-electron/
+
+termscp/

@@ -7,6 +7,7 @@ SETUVAR _fish_abbr_ll:ls\x20\x2dl
 SETUVAR _fish_abbr_ls:exa
 SETUVAR _fish_abbr_pacman:sudo\x20pacman
 SETUVAR _fish_abbr_parup:paru\x20\x2dSyu\x20\x2d\x2dnoconfirm
+SETUVAR _fish_abbr_tree:exa\x20\x2d\x2dtree
 SETUVAR fish_color_autosuggestion:777777
 SETUVAR fish_color_cancel:\x2d\x2dreverse
 SETUVAR fish_color_command:ffffff

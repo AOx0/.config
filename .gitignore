@@ -38,5 +38,3 @@ systemd/user/sockets.target.wants/
 balena-etcher-electron/
 
 termscp/
-
-fish/

@@ -1,6 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3400
+SETUVAR _fish_abbr_fs:joshuto
 SETUVAR _fish_abbr_l1:ls\x20\x2d1
 SETUVAR _fish_abbr_la:ls\x20\x2dla
 SETUVAR _fish_abbr_ll:ls\x20\x2dl
@@ -8,6 +9,7 @@ SETUVAR _fish_abbr_ls:exa
 SETUVAR _fish_abbr_pacman:sudo\x20pacman
 SETUVAR _fish_abbr_parup:paru\x20\x2dSyu\x20\x2d\x2dnoconfirm
 SETUVAR _fish_abbr_tree:exa\x20\x2d\x2dtree
+SETUVAR _fish_abbr_val:sudo\x20env\x20DEBUGINFOD_URLS\x3d\x22https\x3a//debuginfod\x2earchlinux\x2eorg\x22\x20valgrind\x20\x2d\x2dleak\x2dcheck\x3dfull\x20\x2d\x2dshow\x2dleak\x2dkinds\x3dall\x20\x2ds
 SETUVAR fish_color_autosuggestion:777777
 SETUVAR fish_color_cancel:\x2d\x2dreverse
 SETUVAR fish_color_command:ffffff

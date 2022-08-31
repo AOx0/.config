@@ -14,7 +14,43 @@ focus_new_windows = true
 
 [[keybind]]
 command = "Execute"
-value = "dmenu_run"
+value = "polybar-msg cmd toggle"
+modifier = ["modkey"]
+key = "b"
+
+[[keybind]]
+command = "Execute"
+value = "pactl set-sink-volume @DEFAULT_SINK@ +10%"
+modifier = []
+key = "XF86XK_AudioRaiseVolume"
+
+[[keybind]]
+command = "Execute"
+value = "pactl set-sink-volume @DEFAULT_SINK@ -10%"
+modifier = []
+key = "XF86XK_AudioLowerVolume"
+
+[[keybind]]
+command = "Execute"
+value = "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+modifier = []
+key = "XF86XK_AudioMute"
+
+[[keybind]]
+command = "Execute"
+value = "xbacklight -inc 5"
+modifier = []
+key = "XF86XK_MonBrightnessUp"
+
+[[keybind]]
+command = "Execute"
+value = "xbacklight -dec 5"
+modifier = []
+key = "XF86XK_MonBrightnessDown"
+
+[[keybind]]
+command = "Execute"
+value = "rofi -show run"
 modifier = ["modkey"]
 key = "p"
 
@@ -71,6 +107,8 @@ command = "MoveWindowDown"
 value = ""
 modifier = ["modkey", "Shift"]
 key = "j"
+
+[[keybind]]
 command = "MoveWindowTop"
 value = ""
 modifier = ["modkey"]
@@ -149,13 +187,15 @@ modifier = ["modkey", "Control"]
 key = "Down"
 
 [[keybind]]
-command = "FocusWorkspaceNext"
+# command = "FocusWorkspaceNext"
+command = "FocusNextTag"
 value = ""
 modifier = ["modkey"]
 key = "Right"
 
 [[keybind]]
-command = "FocusWorkspacePrevious"
+# command = "FocusWorkspacePrevious"
+command = "FocusPreviousTag"
 value = ""
 modifier = ["modkey"]
 key = "Left"

@@ -4,9 +4,9 @@ return {
       config = require("custom.plugins.rust"),
    },
 
-   ["goolord/alpha-nvim"] = {
-         disable = false,
-   },
+--   ["goolord/alpha-nvim"] = {
+--         disable = false,
+--   },
 
    ["neovim/nvim-lspconfig"] = {
       config = function()

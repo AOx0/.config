@@ -5,7 +5,6 @@ definitions_version = 1
 
 [[repos.themes]]
 name = "Orange Forest"
-directory = "/home/ae/.config/leftwm/themes/Orange Forest"
 repository = "https://github.com/PVautour/leftwm-theme-orange-forest/"
 commit = "*"
 version = "0.0.2"
@@ -63,7 +62,6 @@ current = false
 
 [[repos.themes]]
 name = "arch-one-dark"
-directory = "/home/ae/.config/leftwm/themes/arch-one-dark"
 repository = "https://github.com/jamesbaker1901/leftwm-arch-one-dark/"
 commit = "*"
 version = "1.0.0"
@@ -88,7 +86,6 @@ current = false
 
 [[repos.themes]]
 name = "Blue Coffee"
-directory = "/home/ae/.config/leftwm/themes/Blue Coffee"
 repository = "https://github.com/Qwart376/Blue-Coffee/"
 commit = "*"
 version = "0.0.1"
@@ -129,7 +126,6 @@ current = false
 
 [[repos.themes]]
 name = "Epitaph"
-directory = "/home/ae/.config/leftwm/themes/Epitaph"
 repository = "https://github.com/VentGrey/Epitaph"
 commit = "*"
 version = "0.0.2"
@@ -216,6 +212,13 @@ commit = "*"
 version = "0.1.0"
 leftwm_versions = "^0.3.0"
 current = false
+
+[[repos.themes]]
+name = "plan9"
+repository = "https://github.com/seabassapologist/leftwm-theme-plan9"
+commit = "*"
+version = "0.1.0"
+leftwm_versions = "^0.3.0"
 
 [[repos]]
 url = "localhost"

@@ -12,6 +12,14 @@ disable_tile_drag = false
 focus_behaviour = "Sloppy"
 focus_new_windows = true
 
+
+
+[[keybind]]
+command = "Execute"
+value = "cd ~/Images/ && shotgun"
+modifier = []
+key = "XF86XK_Display"
+
 [[keybind]]
 command = "Execute"
 value = "polybar-msg cmd toggle"
@@ -50,13 +58,14 @@ key = "XF86XK_MonBrightnessDown"
 
 [[keybind]]
 command = "Execute"
-value = "rofi -show run"
+value = "rofi -show run -display-run \"\""
 modifier = ["modkey"]
 key = "p"
 
 [[keybind]]
 command = "Execute"
-value = "alacritty"
+#value = "alacritty"
+value = "kitty"
 modifier = ["modkey", "Shift"]
 key = "Return"
 

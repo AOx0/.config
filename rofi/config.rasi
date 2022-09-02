@@ -155,6 +155,23 @@ configuration {
 
 /* Modifications */
 
-entry {
-  background:     rgba ( 40, 42, 54, 100% );
+window {
+  background-color:     rgba ( 0, 0, 0, 90% );
+  border:               0;
+}
+
+/*element.selected.normal {
+    background-color: rgba ( 0, 0, 0, 90% );
+}*/
+
+element.normal.urgent {
+    background-color: rgba ( 0, 0, 0, 90% );
+}
+
+element.normal.normal {
+    background-color: rgba ( 0, 0, 0, 90% );
+}
+
+element.alternate.normal {
+    background-color: rgba ( 0, 0, 0, 90% );
 }

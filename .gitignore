@@ -38,3 +38,9 @@ systemd/user/sockets.target.wants/
 balena-etcher-electron/
 
 termscp/
+
+xm1/
+
+libreoffice
+
+gtk-2.0/

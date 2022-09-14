@@ -14,4 +14,17 @@ return {
         require "custom.plugins.lspconfig"
       end,
    },
+
+  ["williamboman/mason.nvim"] = {
+   override_options = {
+      ensure_installed = {
+        -- lua stuff
+        "python-lsp-server",
+        "clangd",
+        "lua-language-server",
+        "rust-analyzer",
+        "ltex-ls"
+      },
+    },
+  }
 }

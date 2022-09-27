@@ -15,7 +15,7 @@ M.ui = {
    -- }
 }
 
-M.mappings = require "custom.mappings"
+-- M.mappings = require "custom.mappings"
 
 M.plugins = {
    user = require "custom.plugins"

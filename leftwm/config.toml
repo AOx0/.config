@@ -20,7 +20,7 @@ key = "i"
 
 [[keybind]]
 command = "Execute"
-value = "kitty nvim /home/ae/.config/leftwm/config.toml"
+value = "kitty helix /home/ae/.config/leftwm/config.toml"
 modifier = ["modkey"]
 key = "c"
 
@@ -87,7 +87,7 @@ key = "p"
 [[keybind]]
 command = "Execute"
 #value = "alacritty"
-value = "kitty"
+value = "kitty tmux"
 modifier = ["modkey", "Shift"]
 key = "Return"
 

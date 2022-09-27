@@ -1,1 +1,6 @@
-theme="base16_terminal"
+theme="aa"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "bar"
+select = "underline"

@@ -1,0 +1,13 @@
+[[language]]
+name = "cpp"
+
+[language.config.clangd.build]
+onSave = true
+forwardSearchAfter = true
+
+[language.config.clangd.forwardSearch]
+executable = "clangd"
+args = [ ]
+
+[language.config.clangd.chktex]
+onEdit = true
